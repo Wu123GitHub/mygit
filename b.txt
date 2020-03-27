@@ -1,0 +1,7 @@
+int f(int n)
+{
+	int s=1;
+	for(;n;n--)
+		s=s*n;
+	return s;	
+}
